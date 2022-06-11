@@ -10,9 +10,20 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <form id="weather-form">
-    <input type="text" placeholder="Enter city name" id="city-name">
-    <button type="submit">See result</button>
-  </form>
+  <div class="container">
+    <h1>WEATHER APP</h1>
+    <form id="weather-form">
+      <input type="text" placeholder="Enter city name" id="city-name">
+      <button type="submit">🔍</button>
+    </form>
+    <div id="display-info">
+      <div id="location"></div>
+      <div id="time"></div>
+      <div id="temp"></div>
+      <div id="feels-like"></div>
+      <div id="description"></div>
+      <div id="humidity"></div>
+    </div>
+  </div>
 </body>
 </html>
